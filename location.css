@@ -1,0 +1,468 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+@font-face {
+    font-family: bolba_font;
+    src: url(./open_sans.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+reset css
+--------------------------------------------------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.location_container {
+    --width: 100vw;
+    --full-width: 100%;
+    border: 1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    padding: 4rem 0;
+
+}
+
+.location_container .location_row_wrapper .row_1 .offer__info,
+.location_container .location_row_wrapper .row_1 .button__container__ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.location_container .location_row_wrapper {
+    width: calc(var(--width) - 10%);
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+
+}
+
+.location_container .location_row_wrapper .row_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.location_container .location_row_wrapper .row_1>div {
+    width: calc(var(--width) * 0.28);
+    margin: 0 10px 80px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.location_container .location_row_wrapper .row_1>div>div {
+    width: 100%;
+}
+
+.location_container .location_row_wrapper .row_1>div .heading__ {
+
+    background: #c00000;
+
+    padding: 20px 27px;
+
+    border-bottom: 10px solid #ffc000;
+}
+
+.location_container .location_row_wrapper .row_1>div .heading__ h2 {
+    font-size: 29px;
+    color: #fff;
+    font-family: bolba_font;
+    line-height: 35px;
+    text-align: center;
+}
+
+.location_container .location_row_wrapper .sub__heading {
+    padding: 22px 38px;
+}
+
+.location_container .location_row_wrapper .sub__heading h4 {
+    font-size: 31px;
+    font-family: bolba_font;
+    color: #c00000;
+    font-weight: bold;
+    line-height: 22px;
+
+}
+
+.location_container .location_row_wrapper .paragraph__ {
+
+    padding: 17px 0;
+
+    border-bottom: 2px dotted #c00000;
+    border-top: 2px dotted #c00000;
+
+    background-color: #f4f4f4;
+}
+
+.location_container .location_row_wrapper .paragraph__ p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #3a3a3a;
+    line-height: 23px;
+    padding: 0 21px;
+}
+
+.location_container .location_row_wrapper .img__ img {
+    width: 100%;
+    height: 100%;
+}
+
+.location_container .location_row_wrapper .row_1 .offer__info {
+    background-color: #f4f4f4;
+    padding: 13px 0px;
+    border-bottom: 2px dotted #c00000;
+    border-top: 2px dotted #c00000;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.location_container .location_row_wrapper .row_1 .offer__info img {
+    width: 244px;
+    max-width: 100%;
+    margin-right: 18px;
+    margin-left: 11px;
+}
+
+.location_container .location_row_wrapper .row_1 .offer__info h3 {
+    font-weight: bold;
+    color: #be0000;
+    font-size: 35px;
+    margin: 0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.location_container .location_row_wrapper .row_1 .offer__info p {
+    font-size: 21px;
+    color: #272727;
+}
+
+.location_container .location_row_wrapper .row_1 .button__container__ {
+    background: #ffc000;
+    padding: 22px 10px;
+}
+
+.location_container .location_row_wrapper .row_1 .button__container__ a {
+    border: none;
+    outline: none;
+    background-color: #c00000;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 11px 30px;
+    border-radius: 51px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.location_container .location_row_wrapper .row_1 .ho_chi_minh_heading__ h2 {
+    font-size: 22px !important;
+}
+
+.location_container .location_row_wrapper .row_1 .phonom_penh_heading h2 {
+    font-size: 24px !important;
+}
+
+.location_container .location_row_wrapper .start_any_time_heading {
+    text-align: center;
+}
+
+.location_container .location_row_wrapper .online_tesol_heading h2 {
+    font-size: 33px !important;
+}
+
+.location_container .location_row_wrapper .vietnam_cambodia__ {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 0 !important;
+}
+
+.location_container .location_row_wrapper .vietnam_cambodia__ .teaching__job {
+    font-size: 18px !important;
+    line-height: 21px !important;
+    width: 100%;
+    text-align: left !important;
+}
+
+.location_container .location_row_wrapper .vietnam_cambodia__ .title_vietnam h2 {
+    font-size: 21px !important;
+    line-height: 29px !important;
+}
+
+.location_container .location_row_wrapper .vietnam_esl__ h2 {
+    font-size: 20px !important;
+}
+
+
+@media screen and (max-width:1670px) {
+    .location_container .location_row_wrapper .row_1 .button__container__ {
+        padding: 15px 0;
+    }
+
+    .location_container .location_row_wrapper .row_1 .button__container__ a {
+        font-size: 18px;
+        padding: 9px 26px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info img {
+        width: 156px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info h3 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .location_container .location_row_wrapper .row_1>div {
+        width: 45%;
+        margin: 0 10px 40px 20px;
+    }
+
+    .location_container .location_row_wrapper .row_1>div .heading__ h2 {
+        font-size: 21px !important;
+        line-height: 26px;
+    }
+
+    .location_container .location_row_wrapper .sub__heading {
+        padding: 13px 33px;
+    }
+
+    .location_container .location_row_wrapper .sub__heading h4 {
+        font-size: 19px;
+    }
+
+    .location_container .location_row_wrapper .paragraph__ p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 21px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info img {
+        width: 166px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .location_container .location_row_wrapper .row_1>div {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .location_container .location_row_wrapper .row_1>div .heading__ {
+        background: #c00000;
+        padding: 10px 16px;
+        border-bottom: 7px solid #ffc000;
+    }
+
+    .location_container .location_row_wrapper .sub__heading h4 {
+        font-size: 18px;
+    }
+
+    .location_container .location_row_wrapper .sub__heading {
+        padding: 9px 40px;
+    }
+
+    .location_container .location_row_wrapper .paragraph__ p {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 0px 19px;
+    }
+
+    .location_container .location_row_wrapper .row_1>div .heading__ h2 {
+        font-size: 19px !important;
+        line-height: 26px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info img {
+        width: 140px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info h3 {
+        font-size: 22px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info p {
+        font-size: 16px;
+
+    }
+
+    .location_container .location_row_wrapper .row_1 .button__container__ a {
+        font-size: 14px;
+        padding: 8px 21px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .location_container .location_row_wrapper .row_1>div .heading__ h2 {
+        font-size: 14px !important;
+        line-height: 19px;
+    }
+
+    .location_container .location_row_wrapper .sub__heading h4 {
+        font-size: 14px;
+    }
+
+    .location_container .location_row_wrapper .sub__heading {
+        padding: 7px 34px;
+    }
+
+    .location_container .location_row_wrapper .paragraph__ p {
+        font-size: 9px;
+        line-height: 13px;
+        padding: 0px 8px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info img {
+        width: 117px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info p {
+        font-size: 11px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .offer__info h3 {
+        font-size: 18px;
+    }
+
+    .location_container .location_row_wrapper .row_1 .button__container__ {
+        padding: 7px 0;
+    }
+
+    .location_container .location_row_wrapper .row_1 .button__container__ a {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+}
